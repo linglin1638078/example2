@@ -4,15 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> <!--it is a library always return an array,-->
+    <script defer src = './index.js'></script>
     <title>Document</title>
 </head>
 <body>
-    <h1>Hellow World!</h1>
-    <div>
+    <h1 id='pageTitle'>Hellow World!</h1>
+    <h2 id = 'tempText'>Temporary Text!</h2>
+    <div class = 'no-mobile'>
         <img src = 'https://place-puppy.com/301x301'>
         <img src = './images/301x301.jpeg'>
     </div>
     
+    <div class="cookieClickerContainer">
+        <h2 class = 'cookieCounter'>Number Of Cookies: 0</h2>
+        <img class = 'cookieImage' src = './images/cookie.jpeg' alt = 'cookie'>
+        <div id = 'buttonContainer'>
+            <button class="oven purchaseButton">Buy Oven!</button>
+            <button class="factory purchaseButton">Buy Factory</button>
+            <button class="granma purchaseButton">Hire Granma!</button>
+        </div>
+    </div>
 </body>
 </html>

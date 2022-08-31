@@ -1,0 +1,27 @@
+body{
+    background-color: lightblue;
+}
+.non-mobile{
+    /*display: none;*//*take the div when it is <560*/
+    /*position: absolute; 
+    opacity: 0;
+    pointer-events: none;*/
+    /*it is on the page, but not visible when <560)*/
+}    
+@media(max-width: 560px){
+        body{
+            background-color: lightcoral;
+        }
+
+        .non-mobile{
+            /*display:block;*/
+            /*position: relative;
+            opacity: 1;
+            pointer-events: all;*/
+        }
+    }
+
+    .cookieImage{
+        height:300px;
+        width:auto;/*adjust the width based on height itself, there is default ratio
+    }
